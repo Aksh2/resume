@@ -365,6 +365,7 @@
 
   /* ── PROJECTS ── */
   .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: var(--rule); border: 1px solid var(--rule); }
+  .project-card.featured { grid-column: 1 / -1; }
 
   .project-card {
     background: var(--white);
@@ -534,7 +535,7 @@
   <div class="hero-left">
     <div class="eyebrow">Senior Android Engineer &nbsp;·&nbsp; Bengaluru, India</div>
     <h1 class="hero-name">Akshay<br><em>Kumar H</em></h1>
-    <p class="hero-tagline">Nine years crafting Android experiences — from real-money gaming to live streaming to health-tech supply chains.</p>
+    <p class="hero-tagline">Nine years crafting Android experiences — from real-money gaming to live streaming to health-tech.</p>
   </div>
   <div class="hero-right">
     <div class="hero-stat">
@@ -645,7 +646,7 @@
           <li>Built the Auditor app end-to-end — from design and development to Play Store deployment.</li>
           <li>Designed, developed, and shipped features for supply chain warehouse applications per product requirements.</li>
           <li>Owned and maintained CI/CD pipelines for all Android projects, enabling consistent and reliable releases.</li>
-          <li>Optimised app performance and contributed to Android framework and AOSP-level work.</li>
+          <li>Optimised app performance and contributed to Android framework improvements.</li>
         </ul>
       </div>
 
@@ -692,7 +693,6 @@
         <div class="skill-tags">
           <span class="skill-tag">Clean Arch</span>
           <span class="skill-tag">MVVM</span>
-          <span class="skill-tag">AOSP</span>
         </div>
       </div>
       <div class="skill-group">
@@ -753,6 +753,18 @@
       <div class="section-rule"></div>
     </div>
     <div class="projects-grid">
+      <div class="project-card featured">
+        <div class="project-name">GetsDone</div>
+        <div class="project-arch">MVVM · Solo Project</div>
+        <div class="project-desc">A task and productivity management Android app enabling users to create, assign, and track tasks seamlessly. Built the architecture from scratch using MVVM. Implemented real-time task updates, push notifications, and offline support via Room database.</div>
+        <div class="project-techs">
+          <span class="tech-pill">Kotlin</span>
+          <span class="tech-pill">Jetpack Compose</span>
+          <span class="tech-pill">DaggerHilt</span>
+          <span class="tech-pill">Coroutines</span>
+          <span class="tech-pill">Room</span>
+        </div>
+      </div>
       <div class="project-card">
         <div class="project-name">XchangeOnline</div>
         <div class="project-arch">Clean Architecture</div>
@@ -771,18 +783,6 @@
           <span class="tech-pill">RxJava</span>
           <span class="tech-pill">Dagger</span>
           <span class="tech-pill">Retrofit</span>
-        </div>
-      </div>
-      <div class="project-card">
-        <div class="project-name">GetsDone</div>
-        <div class="project-arch">MVVM · Solo Project</div>
-        <div class="project-desc">A task and productivity management Android app enabling users to create, assign, and track tasks seamlessly. Built the architecture from scratch using MVVM. Implemented real-time task updates, push notifications, and offline support via Room database.</div>
-        <div class="project-techs">
-          <span class="tech-pill">Kotlin</span>
-          <span class="tech-pill">Jetpack Compose</span>
-          <span class="tech-pill">DaggerHilt</span>
-          <span class="tech-pill">Coroutines</span>
-          <span class="tech-pill">Room</span>
         </div>
       </div>
     </div>
